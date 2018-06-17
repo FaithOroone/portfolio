@@ -3,8 +3,11 @@ h1{
   color: blue;
 }
 .Name{
-  text-align: center;
+  float: right;
   color: blue;
+}
+img{
+  float: right;
 }
 table,th,td{
   border:1px solid black;
