@@ -1,7 +1,7 @@
 .container{
   border: 12px solid grey;
   border-width: 5px;
-  margin:200px 150px 150px 150px;
+  margin:100px 150px 150px 150px;
   padding: 25px;
 }
 h1{
@@ -11,7 +11,13 @@ h1{
 .name-and-img{
   float: right;
   color: blue;
-  border: 1px solid grey;
+
+}
+
+img{
+  width:150px;
+  height: 150px;
+}
 
 .AboutMe{
   text-align: justify;
@@ -29,4 +35,7 @@ table,th,td{
 }
 .Skills{
   color: blue;
+}
+body{
+  background-color: red;
 }
