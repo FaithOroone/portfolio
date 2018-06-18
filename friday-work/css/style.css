@@ -1,14 +1,32 @@
+.container{
+  border: 12px solid grey;
+  border-width: 5px;
+  margin:200px 150px 150px 150px;
+  padding: 25px;
+}
 h1{
   text-align: center;
   color: blue;
 }
-.Name{
+.name-and-img{
   float: right;
   color: blue;
+  border: 1px solid grey;
+
+.AboutMe{
+  text-align: justify;
+
 }
-img{
-  float: right;
+th{
+  color: blue;
 }
+
 table,th,td{
-  border:1px solid black;
+  border:hidden;
+}
+.Hobbies{
+  color: blue;
+}
+.Skills{
+  color: blue;
 }
