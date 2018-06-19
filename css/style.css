@@ -1,26 +1,44 @@
+.my-links{
+  text-align: center;
+  padding: 15px;
+  font-size: 15px;
+  display: block;
+  margin: 20px 40px;
+  float: left;
+  border-radius: 4px;
+  width: 50%;
+}
+header a:hover{
+  background-color: black;
+  color: green;
+}
+.name{
+  display: block;
+  float: right;
+  width: 50%
+}
 .container{
   border: 12px solid grey;
   border-width: 5px;
-  margin:100px 150px 150px 150px;
+  margin:80px 80px 80px 80px;
   padding: 25px;
 }
 h1{
   text-align: center;
   color: blue;
 }
-.name-and-img{
-  float: right;
-  color: blue;
-
-}
 
 img{
-  width:150px;
-  height: 150px;
+  width:200px;
+  height: 200px;
+  border-radius: 50px
 }
 
 .AboutMe{
   text-align: justify;
+  width: 0 auto;
+  margin: 20px;
+  white-space:nowrap;
 
 }
 th{
@@ -30,12 +48,32 @@ th{
 table,th,td{
   border:hidden;
 }
-.Hobbies{
+.projects{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+H3{
   color: blue;
+}
+.my-skills{
+  display: flex;
 }
 .Skills{
+  display:flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content:center;
+  margin: auto;
   color: blue;
+  float: right;
+
 }
+
 body{
-  background-color: red;
+  background-image: url("../imgs/violet.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
